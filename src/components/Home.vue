@@ -10,9 +10,9 @@ export default {
     <div class="col-span-3 bg-gray-100">
       <aside class="bg-white h-screen text-2xl">
         <h>Logo</h>
-        <ul class="list-group list-group-flush m-6 rounded-lg">
+        <ul class="list-group list-group-flush m-8 text-slate-500">
 <!--          home-->
-          <li class="list-group-item list-group-item-action py-3 gap-4 hover:bg-gray-100">
+          <li class="list-group-item list-group-item-action py-4 gap-4 hover:bg-gray-100 hover:text-black">
             <div class="flex items-center gap-2">
               <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
@@ -21,7 +21,7 @@ export default {
             </div>
           </li>
 <!--          produces-->
-          <li class="list-group-item list-group-item-action py-3 gap-4 hover:bg-gray-100">
+          <li class="list-group-item list-group-item-action py-4 gap-4 hover:bg-gray-100 hover:text-black">
             <div class="flex items-center gap-2">
               <svg class='w-8 h-8' fill="currentColor" viewBox="0 0 16 16">
                 <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6zm11.386 3.785-1.806-2.41-.776 2.413zm-3.633.004.961-2.989H4.186l.963 2.995zM5.47 5.495 8 13.366l2.532-7.876zm-1.371-.999-.78-2.422-1.818 2.425zM1.499 5.5l5.113 6.817-2.192-6.82zm7.889 6.817 5.123-6.83-2.928.002z"/>
@@ -30,7 +30,7 @@ export default {
             </div>
           </li>
 <!--          customers-->
-          <li class="list-group-item list-group-item-action py-3 gap-4 hover:bg-gray-100">
+          <li class="list-group-item list-group-item-action py-4 gap-4 hover:bg-gray-100 hover:text-black">
             <div class="flex items-center gap-2">
               <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
@@ -40,12 +40,31 @@ export default {
             </div>
           </li>
 <!--          shop-->
-          <li class="list-group-item list-group-item-action py-3 gap-4 hover:bg-gray-100">
+          <li class="list-group-item list-group-item-action py-4 gap-4 hover:bg-gray-100 hover:text-black">
             <div class="flex items-center gap-2">
               <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 16 16">
                 <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"/>
               </svg>
               <span class="text-balance font-medium">فروشگاه</span>
+            </div>
+          </li>
+<!--          income-->
+          <li class="list-group-item list-group-item-action py-4 gap-4 hover:bg-gray-100 hover:text-black">
+            <div class="flex items-center gap-2">
+              <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+              </svg>
+              <span class="text-balance font-medium">درآمد</span>
+            </div>
+          </li>
+<!--          promote-->
+          <li class="list-group-item list-group-item-action py-4 gap-4 hover:bg-gray-100 hover:text-black">
+            <div class="flex items-center gap-2">
+              <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M13.5 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm-11-1a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M6.5 3a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zm-4 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zm8 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1z"/>
+              </svg>
+              <span class="text-balance font-medium">پیشرفت ها</span>
             </div>
           </li>
         </ul>
