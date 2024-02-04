@@ -1,9 +1,12 @@
 <script>
 import Home from './components/Home.vue'
+import DarkModeToggle from "@/components/DarkModeToggle.vue";
+
 export default {
   name: 'App',
   components: {
-    Home
+    Home,
+    DarkModeToggle
   }
 }
 </script>
@@ -29,7 +32,10 @@ export default {
                 </div>
               </div>
             </div>
-            <div class="bg-gray-100 mx-auto">002</div>
+<!--            DarkModeToggle-->
+            <div class="bg-gray-100 mx-auto">
+              <DarkModeToggle/>
+            </div>
           </div>
         </header>
         <main class="row-span-6 bg-yellow-200">
