@@ -16,11 +16,18 @@ export default {
       <div class="flex-row h-screen">
 <!--        header of side-bar-->
         <div class="grid grid-cols-6 bg-green-200 h-[25%]">
-          s
-<!--&lt;!&ndash;          account picture and email&ndash;&gt;-->
-<!--          <div class="col-span-5 bg-red-400 p-10 h"></div>-->
-<!--&lt;!&ndash;          switch dark mode&ndash;&gt;-->
-<!--          <div class="col-span-1 bg-yellow-400 p-10"></div>-->
+<!--          account picture and email-->
+          <div class="col-span-5 bg-red-400">
+            <div class="bg-blue-600 h-[70%] w-full">
+              <div class="w-20 h-20 p-5 bg-gray-300"></div>
+            </div>
+            <div class="bg-blue-200 h-[30%] w-full">
+              <h>Mahdi.H</h>
+              <h1>hosseinim018@gmail.com</h1>
+            </div>
+          </div>
+<!--          switch dark mode-->
+          <div class="col-span-1 bg-yellow-400 p-10"></div>
         </div>
 <!--        content of side-bar-->
         <div class="bg-red-200 h-[60%]">content</div>
