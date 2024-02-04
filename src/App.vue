@@ -10,13 +10,14 @@ export default {
 
 
 <template>
-  <div class="grid grid-cols-12">
+  <div class="grid grid-cols-12 h-screen">
 <!--    sidebar-->
     <div class="col-span-2 bg-gray-100">
 
     </div>
 <!--    main content-->
     <div class="col-span-10 bg-gray-300 p-6"></div>
+    
   </div>
 </template>
 
